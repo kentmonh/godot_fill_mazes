@@ -1,0 +1,11 @@
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\bin\Release\CreateLevels.exe.config
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\bin\Release\CreateLevels.exe
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\bin\Release\CreateLevels.pdb
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\bin\Release\System.Numerics.Vectors.dll
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\bin\Release\System.Numerics.Vectors.xml
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\obj\Release\CreateLevels.csproj.AssemblyReference.cache
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\obj\Release\CreateLevels.csproj.SuggestedBindingRedirects.cache
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\obj\Release\CreateLevels.csproj.CoreCompileInputs.cache
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\obj\Release\CreateLevels.csproj.CopyComplete
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\obj\Release\CreateLevels.exe
+D:\M_Godot\Projects\Fill\fill_game_godot\C#_project_create_levels\CreateLevels\obj\Release\CreateLevels.pdb
