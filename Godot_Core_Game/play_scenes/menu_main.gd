@@ -4,8 +4,8 @@ var dollar = preload("res://scenes/dollar.tscn")
 
 func _ready():
 	# This code used for delete save file when testing
-	var dir = Directory.new()
-	dir.remove("user://save-data.save")
+#	var dir = Directory.new()
+#	dir.remove("user://save-data.save")
 
 	# Load levels at init
 	Player.load_level()

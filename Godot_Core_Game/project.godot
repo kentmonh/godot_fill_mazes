@@ -14,6 +14,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://scripts/create_levels.gd"
 }, {
+"base": "EditorScript",
+"class": "CreateScenesFromFiles",
+"language": "GDScript",
+"path": "res://scripts/create_scenes_from_files.gd"
+}, {
 "base": "Reference",
 "class": "Level",
 "language": "GDScript",
@@ -31,6 +36,7 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "CreateLevels": "",
+"CreateScenesFromFiles": "",
 "Level": "",
 "Point": "",
 "ReadFile": ""

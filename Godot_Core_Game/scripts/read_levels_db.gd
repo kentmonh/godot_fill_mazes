@@ -2,7 +2,7 @@ tool
 extends EditorScript
 class_name ReadFile
 
-var file_path = "res://scripts/levels_db/3_3_7.txt"
+var file_path = "res://scripts/levels_db/4_4_13.txt"
 var paths = []
 var path = []
 var row : int

@@ -9,7 +9,9 @@ var middle_screen = Vector2(4, 7)
 # Number of level category
 var level_category = 1
 # Number of levels created
-var level_created = 2
+var level_created = 5
+# Number of levels to create in this level
+var size : int = 1
 
 func _run():
 	var create_levels = ReadFile.new()
@@ -19,9 +21,9 @@ func _run():
 	var center_level_y = (create_levels.column - 1) / 2 + (create_levels.column  - 1) % 2 * 0.5
 
 	var center_screen = middle_screen - Vector2(center_level_x, center_level_y)
+	
 	create_levels.paths.shuffle()
 	var path_size : int = create_levels.paths.size()
-	var size : int = 1
 	if path_size > size:
 		path_size = size
 	for i in path_size:
