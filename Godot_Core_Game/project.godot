@@ -23,11 +23,17 @@ _global_script_classes=[ {
 "class": "Point",
 "language": "GDScript",
 "path": "res://global/point.gd"
+}, {
+"base": "EditorScript",
+"class": "ReadFile",
+"language": "GDScript",
+"path": "res://scripts/read_levels_db.gd"
 } ]
 _global_script_class_icons={
 "CreateLevels": "",
 "Level": "",
-"Point": ""
+"Point": "",
+"ReadFile": ""
 }
 
 [application]
