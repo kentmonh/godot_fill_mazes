@@ -20,7 +20,7 @@ var dup_positions : Array = []
 # Begin of level
 func _init():
 	# Init variables
-	level = Level.new(3, 1, 3)
+	level = Level.new(3, 2, 5)
 	num_of_start_points = level.row_length * level.column_length
 
 # Create matrix with false values (init matrix, do not visit any point)

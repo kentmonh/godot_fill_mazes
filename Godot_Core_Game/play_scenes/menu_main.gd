@@ -4,8 +4,8 @@ var dollar = preload("res://scenes/dollar.tscn")
 
 func _ready():
 	# This code used for delete save file when testing
-#	var dir = Directory.new()
-#	dir.remove("user://save-data.json")
+	var dir = Directory.new()
+	dir.remove("user://save-data.save")
 
 	# Load levels at init
 	Player.load_level()
@@ -29,3 +29,9 @@ func _ready():
 			button.get_node("Button").text = text_level
 			button.get_node("Label").text = label_text
 			button.get_node("Button").disabled = false
+	
+	# Move to the first level in the first time play
+	if Player.unlock_levels[0] == 1:
+		Player.level_category = 1
+		Player.level = 1
+		Global.goto_scene("res://play_scenes/level_1/level_1.tscn")

@@ -32,8 +32,7 @@ func save_level():
 func load_level():
 	var save_file = File.new()
 	if not save_file.file_exists(SAVE_PATH):
-		print("Aborting, no savefile")
-		return
+		print("MinhLog Aborting, no save file!")
 	else:
 		save_file.open(SAVE_PATH, File.READ)
 		var data = save_file.get_var()
