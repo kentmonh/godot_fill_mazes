@@ -3,14 +3,14 @@ extends EditorScript
 class_name CreateScenesFromFiles
 
 # Variables will change in each time create scenes
-var file_path = "res://scripts/levels_db/4_4_14.txt"
-var camera_zoom = preload("res://play_scenes/cameras_zoom/camera_zoom_0.75.tscn")
+var file_path = "res://scripts/levels_db/5_6_28.txt"
+var camera_zoom = preload("res://play_scenes/cameras_zoom/camera_zoom_0.8.tscn")
 # Number of level category
-var level_category = 1
-# Number of levels created
-var level_created = 5
+var level_category = 4
+# Number of levels in category created
+var level_created = 89
 # Number of levels to create in this level
-var number_of_scenes_created : int = 8
+var number_of_scenes_created : int = 300
 
 var paths = []
 var path = []

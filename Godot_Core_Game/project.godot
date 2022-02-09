@@ -45,7 +45,7 @@ _global_script_class_icons={
 [application]
 
 config/name="fill_mazes_core"
-run/main_scene="res://play_scenes/menu_main.tscn"
+run/main_scene="res://play_scenes/level_2/level_43.tscn"
 config/icon="res://icon.png"
 
 [autoload]
