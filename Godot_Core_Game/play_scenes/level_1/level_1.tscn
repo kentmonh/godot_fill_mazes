@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://play_scenes/game_template.gd" type="Script" id=1]
 [ext_resource path="res://play_scenes/cameras_zoom/camera_zoom_0.6.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/hand_icon.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/block.tscn" type="PackedScene" id=4]
 
 [node name="Game_Template" type="Node2D"]
@@ -17,3 +18,5 @@ position = Vector2( 160, 280 )
 
 [node name="Block3" parent="." instance=ExtResource( 4 )]
 position = Vector2( 200, 280 )
+
+[node name="Hand_Icon" parent="." instance=ExtResource( 3 )]
