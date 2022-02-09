@@ -5,6 +5,7 @@ var next = preload("res://scenes/btn_next.tscn")
 var restart = preload("res://scenes/restart.tscn")
 var dollar = preload("res://scenes/dollar.tscn")
 var lbl_level_infor = preload("res://scenes/lbl_level_infor.tscn")
+var hint = preload("res://scenes/hint.tscn")
 
 func _ready():
 	# Set back button
@@ -41,3 +42,9 @@ func _ready():
 	next.position = Vector2(2, 13) * Global.grid_size
 	add_child(next)
 	next.visible = false
+	
+	# Set hint button
+	hint = hint.instance()
+	hint.position = Vector2(6, 0) * Global.grid_size
+	add_child(hint)
+	hint.visible = true
