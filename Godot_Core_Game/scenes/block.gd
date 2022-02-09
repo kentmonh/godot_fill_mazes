@@ -18,6 +18,10 @@ func _on_Block_input_event(viewport, event, shape_idx):
 	self.get_owner().update()
 	# InputEventScreenDrag for mobile swipe
 	if event is InputEventScreenTouch || event is InputEventScreenDrag:
+		# Disable tween if in tutorial
+		if self.get_owner().get_node("Hand_Icon") != null:
+			self.get_owner().get_node("Hand_Icon").queue_free()
+			
 		if available && !occupied:
 			occupied = true
 			# self.get_node("Sprite").modulate = Global.yellow
