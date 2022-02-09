@@ -4,12 +4,12 @@ const locked = preload("res://assets/images/locked.png")
 var dollar = preload("res://scenes/dollar.tscn")
 
 var left_border = 10
-var right_border = 350
-var top_border = 100
+var right_border = 300
+var top_border = 80
 var x = left_border
 var y = top_border
 
-func _ready():	
+func _ready():
 	# Levels system
 	var max_level = Player.unlock_levels[Player.level_category - 1]
 	
@@ -43,4 +43,3 @@ func _ready():
 				button.get_node("Button").text = ""
 				button.get_node("Sprite_Lock").visible = true
 				button.get_node("Sprite_Lock").modulate = Global.blackish
-			
