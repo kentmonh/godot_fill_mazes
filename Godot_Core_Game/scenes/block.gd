@@ -20,10 +20,8 @@ func _on_Block_input_event(viewport, event, shape_idx):
 	if event is InputEventScreenTouch || event is InputEventScreenDrag:
 		if available && !occupied:
 			occupied = true
-			# self.get_node("Sprite").modulate = Global.yellow
-			self.get_node("Sprite").material.set_shader_param("block_color", Global.yellow)
-			set_current()
 			
+			set_current()
 			# Set number of blocks
 			var blocks = self.get_owner().blocks_get()
 			blocks -= 1
@@ -50,6 +48,8 @@ func _on_Block_input_event(viewport, event, shape_idx):
 
 
 func set_current():
+	# self.get_node("Sprite").modulate = Global.yellow
+	self.get_node("Sprite").material.set_shader_param("block_color", Global.yellow)
 	# Remove the available and current
 	for block in self.get_owner().get_children():
 		if block.is_in_group('blocks'):
