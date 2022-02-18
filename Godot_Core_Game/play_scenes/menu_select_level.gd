@@ -11,7 +11,8 @@ var y = top_border
 
 func _ready():
 	# Levels system
-	var max_level = Player.unlock_levels[Player.level_category - 1]
+	var max_level = 300
+	# var max_level = Player.unlock_levels[Player.level_category - 1]
 	
 	# Set dollar visible
 	dollar = dollar.instance()
