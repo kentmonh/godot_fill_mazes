@@ -3,27 +3,27 @@ extends EditorScript
 
 var grid_size = 40
 var block = load("res://scenes/block.tscn")
-var camera_zoom = load("res://play_scenes/cameras_zoom/camera_zoom_0.75.tscn")
+var camera_zoom = load("res://play_scenes/cameras_zoom/camera_zoom_0.65.tscn")
 
 var middle_screen = Vector2(4, 7)
 # Number of level category
 var level_category = 1
 # Number of levels created
-var level_created = 5
+var level_created = 1
 # Number of levels to create in this level
 var size : int = 1
 
 func _run():
-	var create_levels = ReadFile.new()
+	var create_levels = CreateLevels.new()
 	create_levels._run()
 
-	var center_level_x = (create_levels.row - 1) / 2 + (create_levels.row  - 1) % 2 * 0.5
-	var center_level_y = (create_levels.column - 1) / 2 + (create_levels.column  - 1) % 2 * 0.5
+	var center_level_x = (create_levels.level.row_length - 1) / 2 + (create_levels.level.row_length - 1) % 2 * 0.5
+	var center_level_y = (create_levels.level.column_length - 1) / 2 + (create_levels.level.column_length - 1) % 2 * 0.5
 
 	var center_screen = middle_screen - Vector2(center_level_x, center_level_y)
 	
-	create_levels.paths.shuffle()
-	var path_size : int = create_levels.paths.size()
+	create_levels.all_paths.shuffle()
+	var path_size : int = create_levels.all_paths.size()
 	if path_size > size:
 		path_size = size
 	for i in path_size:
@@ -36,9 +36,9 @@ func _run():
 		scene.add_child(camera_zoom)
 		camera_zoom.owner = scene
 
-		for j in create_levels.paths[i].size():
+		for j in create_levels.all_paths[i].size():
 			var new_block = block.instance()
-			new_block.position = (create_levels.paths[i][j] + center_screen) * grid_size
+			new_block.position = (create_levels.all_paths[i][j].pos + center_screen) * grid_size
 			new_block.visible = true
 			scene.add_child(new_block)
 			new_block.owner = scene
