@@ -4,6 +4,23 @@
             "outputFile": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\mnguy\\.gradle\\caches\\transforms-3\\cd8b73b384c299300fd2264c8e394feb\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "203",
+                        "endOffsets": "450"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                },
+                {
                     "source": "C:\\Users\\mnguy\\.gradle\\caches\\transforms-3\\c5eaa7d939abb2d757f863a6b5340cdd\\transformed\\core-1.2.0\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2",
@@ -13,11 +30,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "3",
+                        "startLines": "11",
                         "startColumns": "4",
-                        "startOffsets": "125",
+                        "startOffsets": "1028",
                         "endColumns": "100",
-                        "endOffsets": "221"
+                        "endOffsets": "1124"
                     }
                 },
                 {
@@ -26,15 +43,32 @@
                         "startLines": "3",
                         "startColumns": "1",
                         "startOffsets": "112",
-                        "endColumns": "66",
-                        "endOffsets": "177"
+                        "endColumns": "81",
+                        "endOffsets": "192"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "69",
-                        "endOffsets": "120"
+                        "startOffsets": "309",
+                        "endColumns": "84",
+                        "endOffsets": "389"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mnguy\\.gradle\\caches\\transforms-3\\a4d4133569e129b9041cb0bde2090bf8\\transformed\\jetified-play-services-ads-19.3.0\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,272,397,464,530,619,733",
+                        "endColumns": "72,124,66,65,88,113,71",
+                        "endOffsets": "271,396,463,529,618,732,804"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "394,471,600,671,741,834,952",
+                        "endColumns": "76,128,70,69,92,117,75",
+                        "endOffsets": "466,595,666,736,829,947,1023"
                     }
                 }
             ]

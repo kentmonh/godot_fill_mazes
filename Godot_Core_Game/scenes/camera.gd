@@ -6,11 +6,11 @@ func _ready():
 	limit_right = 360
 	# Limit bottom in choose level scene
 	if self.get_parent().name == "Menu_Select_Level":
-		limit_bottom = 80 + 60 * 50 + 10
+		limit_bottom = 80 + 60 * 50 + 60
 	else:
 		# Limit bottom in choose category scene
 		var last_button = self.get_owner().get_child(self.get_owner().get_child_count()-1)
-		limit_bottom = last_button.position.y + Global.grid_size * 2
+		limit_bottom = last_button.position.y + Global.grid_size * 2 + 50
 	position.x = 180
 	position.y = 320
 

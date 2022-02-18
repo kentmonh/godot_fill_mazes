@@ -12,16 +12,16 @@
         "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\mipmap-xxhdpi-v4\\icon_foreground.png"
     },
     {
+        "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\drawable_splash_drawable.xml.flat",
+        "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\drawable\\splash_drawable.xml"
+    },
+    {
         "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi-v4_icon.png.flat",
         "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\mipmap-mdpi-v4\\icon.png"
     },
     {
         "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_splash.png.flat",
         "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\drawable-nodpi\\splash.png"
-    },
-    {
-        "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\drawable_splash_drawable.xml.flat",
-        "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\drawable\\splash_drawable.xml"
     },
     {
         "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi-v4_icon_foreground.png.flat",
@@ -36,12 +36,12 @@
         "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\mipmap-xxxhdpi-v4\\icon.png"
     },
     {
-        "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi-v4_icon.png.flat",
-        "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\mipmap-xxhdpi-v4\\icon.png"
-    },
-    {
         "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi-v4_icon.png.flat",
         "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\mipmap-hdpi-v4\\icon.png"
+    },
+    {
+        "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi-v4_icon.png.flat",
+        "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\mipmap-xxhdpi-v4\\icon.png"
     },
     {
         "merged": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\merged_res\\debug\\mipmap_icon.png.flat",
