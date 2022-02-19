@@ -12,9 +12,9 @@ func _ready():
 
 
 func _on_Button_Unlock_pressed():
-	if Player.money >= 1:
+	if Player.money >= 50:
 		Player.unlock_levels[Player.level_category - 1] = 1
-		Player.money -= 1
+		Player.money -= 50
 		Player.save_level()
 		Global.goto_scene("res://play_scenes/menu_select_level.tscn")
 

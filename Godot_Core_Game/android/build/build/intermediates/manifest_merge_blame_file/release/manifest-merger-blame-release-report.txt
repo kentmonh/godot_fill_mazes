@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mnguyendev.fillmaze"
+4    android:installLocation="auto"
+5    android:versionCode="3"
+6    android:versionName="1.03" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+10        android:targetSdkVersion="30" />
+11
+12    <supports-screens
+12-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:12:5-16:40
+13        android:largeScreens="true"
+13-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:15:9-36
+14        android:normalScreens="true"
+14-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:14:9-37
+15        android:smallScreens="true"
+15-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:13:9-36
+16        android:xlargeScreens="true" />
+16-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:16:9-37
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:10:5-79
+18-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:10:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:11:5-67
+19-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:11:22-64
+20
+21    <instrumentation
+21-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:12:5-17:59
+22        android:name=".GodotInstrumentation"
+22-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:14:9-45
+23        android:icon="@mipmap/icon"
+23-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:15:9-36
+24        android:label="@string/godot_project_name_string"
+24-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:16:9-58
+25        android:targetPackage="com.mnguyendev.fillmaze" />
+25-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\src\release\AndroidManifest.xml:17:9-56
+26    <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
+27    <uses-feature
+27-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:19:5-21:35
+28        android:glEsVersion="0x00020000"
+28-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:20:9-41
+29        android:required="true" />
+29-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:21:9-32
+30
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\mnguy\.gradle\caches\transforms-3\3789a99f2021a82fcd6bfcfcc3f3d972\transformed\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+31-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\mnguy\.gradle\caches\transforms-3\3789a99f2021a82fcd6bfcfcc3f3d972\transformed\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+32
+33    <application
+33-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:31:5-84:19
+34        android:allowBackup="false"
+34-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:31:68-95
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.2.0] C:\Users\mnguy\.gradle\caches\transforms-3\c5eaa7d939abb2d757f863a6b5340cdd\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+36        android:hasFragileUserData="false"
+36-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:31:118-152
+37        android:icon="@mipmap/icon"
+37-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:31:238-265
+38        android:isGame="true"
+38-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:31:96-117
+39        android:label="@string/godot_project_name_string"
+39-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:31:18-67
+40        android:requestLegacyExternalStorage="false" >
+40-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:31:153-197
+41        <activity
+41-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:53:9-75:20
+42            android:name="com.godot.game.GodotApp"
+42-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:54:13-37
+43            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+43-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:60:13-141
+44            android:excludeFromRecents="false"
+44-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:58:13-47
+45            android:label="@string/godot_project_name_string"
+45-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:55:13-62
+46            android:launchMode="singleTask"
+46-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:57:13-44
+47            android:resizeableActivity="false"
+47-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:61:13-47
+48            android:screenOrientation="portrait"
+48-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:59:13-50
+49            android:theme="@style/GodotAppSplashTheme" >
+49-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:56:13-55
+50            <intent-filter>
+50-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:67:13-74:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:68:17-69
+51-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:68:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:69:17-77
+53-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:69:27-74
+54
+55                <!--
+56                Enable access to OpenXR on Oculus mobile devices, no-op on other Android
+57                platforms.
+58                -->
+59                <category android:name="com.oculus.intent.category.VR" />
+59-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:73:17-74
+59-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:73:27-71
+60            </intent-filter>
+61        </activity>
+62        <!-- Records the version of the Godot editor used for building -->
+63        <meta-data
+64            android:name="org.godotengine.editor.version"
+65            android:value="3.4.2.stable" /> <!-- Custom application XML added by add-ons. -->
+66        <!-- CHUNK_APPLICATION_BEGIN -->
+67        <!-- CHUNK_APPLICATION_END -->
+68        <meta-data
+68-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:80:9-82:69
+69            android:name="com.google.android.gms.ads.APPLICATION_ID"
+69-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:81:13-69
+70            android:value="ca-app-pub-5539274121801591~2427115575" />
+70-->D:\M_Godot\Projects\Fill_Mazes\godot_fill_mazes\Godot_Core_Game\android\build\AndroidManifest.xml:82:13-67
+71        <meta-data
+71-->[GodotAdMob.5.1.0.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\f9a294889bc53f9dbafd07e875f55d10\transformed\jetified-GodotAdMob.5.1.0.release\AndroidManifest.xml:14:9-16:82
+72            android:name="org.godotengine.plugin.v1.GodotAdMob"
+72-->[GodotAdMob.5.1.0.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\f9a294889bc53f9dbafd07e875f55d10\transformed\jetified-GodotAdMob.5.1.0.release\AndroidManifest.xml:15:13-64
+73            android:value="shinnil.godot.plugin.android.godotadmob.GodotAdMob" /> <!-- Records the version of the Godot library -->
+73-->[GodotAdMob.5.1.0.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\f9a294889bc53f9dbafd07e875f55d10\transformed\jetified-GodotAdMob.5.1.0.release\AndroidManifest.xml:16:13-79
+74        <meta-data
+74-->[godot-lib.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\e1a2b8fd50dcbe7932b4afa131d44709\transformed\jetified-godot-lib.release\AndroidManifest.xml:19:9-21:44
+75            android:name="org.godotengine.library.version"
+75-->[godot-lib.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\e1a2b8fd50dcbe7932b4afa131d44709\transformed\jetified-godot-lib.release\AndroidManifest.xml:20:13-59
+76            android:value="3.4.2.stable" />
+76-->[godot-lib.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\e1a2b8fd50dcbe7932b4afa131d44709\transformed\jetified-godot-lib.release\AndroidManifest.xml:21:13-41
+77
+78        <service android:name="org.godotengine.godot.GodotDownloaderService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+78-->[godot-lib.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\e1a2b8fd50dcbe7932b4afa131d44709\transformed\jetified-godot-lib.release\AndroidManifest.xml:23:9-80
+78-->[godot-lib.release.aar] C:\Users\mnguy\.gradle\caches\transforms-3\e1a2b8fd50dcbe7932b4afa131d44709\transformed\jetified-godot-lib.release\AndroidManifest.xml:23:18-77
+79        <activity
+79-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:29:9-33:64
+80            android:name="com.google.android.gms.ads.AdActivity"
+80-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:30:13-65
+81            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+81-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:31:13-122
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:32:13-37
+83            android:theme="@android:style/Theme.Translucent" />
+83-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:33:13-61
+84
+85        <provider
+85-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:35:9-39:39
+86            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+86-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:36:13-76
+87            android:authorities="com.mnguyendev.fillmaze.mobileadsinitprovider"
+87-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:37:13-73
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:38:13-37
+89            android:initOrder="100" />
+89-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\mnguy\.gradle\caches\transforms-3\05135c35a085f3cd1e966eaf563277cb\transformed\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:39:13-36
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mnguy\.gradle\caches\transforms-3\cd8b73b384c299300fd2264c8e394feb\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mnguy\.gradle\caches\transforms-3\cd8b73b384c299300fd2264c8e394feb\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mnguy\.gradle\caches\transforms-3\cd8b73b384c299300fd2264c8e394feb\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+94    </application>
+95
+96</manifest>

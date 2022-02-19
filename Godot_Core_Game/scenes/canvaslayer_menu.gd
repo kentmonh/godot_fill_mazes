@@ -13,7 +13,7 @@ func _ready():
 		limit_bottom = 80 + 60 * 50 + 60
 	else:
 		# Limit bottom in choose category scene
-		var last_button = self.get_owner().get_child(self.get_owner().get_child_count()-1)
+		var last_button = self.get_owner().get_child(self.get_owner().get_child_count() - 1 - 14)
 		limit_bottom = last_button.position.y + Global.grid_size * 2 + 50
 
 func _on_Button_Up_pressed():

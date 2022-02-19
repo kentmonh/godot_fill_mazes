@@ -3,7 +3,7 @@
 3    package="com.mnguyendev.fillmaze"
 4    android:installLocation="auto"
 5    android:versionCode="3"
-6    android:versionName="1.3" >
+6    android:versionName="1.03" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="19"

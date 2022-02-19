@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "map": [
+                {
+                    "source": "D:\\M_Godot\\Projects\\Fill_Mazes\\godot_fill_mazes\\Godot_Core_Game\\android\\build\\res\\values-es-rES\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "81",
+                        "endOffsets": "192"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "84",
+                        "endOffsets": "135"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -35,43 +35,57 @@ position = Vector2( 40, 480 )
 position = Vector2( 40, 560 )
 
 [node name="Button_Select_Category_8" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 640 )
 
 [node name="Button_Select_Category_9" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 720 )
 
 [node name="Button_Select_Category_10" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 800 )
 
 [node name="Button_Select_Category_11" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 880 )
 
 [node name="Button_Select_Category_12" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 960 )
 
 [node name="Button_Select_Category_13" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1040 )
 
 [node name="Button_Select_Category_14" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1120 )
 
 [node name="Button_Select_Category_15" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1200 )
 
 [node name="Button_Select_Category_16" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1280 )
 
 [node name="Button_Select_Category_17" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1360 )
 
 [node name="Button_Select_Category_18" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1440 )
 
 [node name="Button_Select_Category_19" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1520 )
 
 [node name="Button_Select_Category_20" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1600 )
 
 [node name="Button_Select_Category_21" parent="." instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 40, 1680 )
