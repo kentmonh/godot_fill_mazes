@@ -35,8 +35,8 @@ namespace CreateLevels
         // Check a move is valid or not
         private static bool ValidMove(Point nextPoint)
         {
-            if (nextPoint.Row >= 0 && nextPoint.Row < Level.ColumnLength
-                && nextPoint.Column >= 0 && nextPoint.Column < Level.RowLength
+            if (nextPoint.Row >= 0 && nextPoint.Row < Level.RowLength
+                && nextPoint.Column >= 0 && nextPoint.Column < Level.ColumnLength
                 && MatrixVisited[nextPoint.Row][nextPoint.Column] == false)
             {
                 return true;
